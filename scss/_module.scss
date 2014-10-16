@@ -6,7 +6,7 @@ Module Rules
 
 .toggle-button {
     animation: colorchange-font 5s linear 1s infinite alternate;
-    background-color: $color;
+   background-color: $color;
     color: $background-color;
     display: inline-block;
     @include headline-font;
@@ -94,7 +94,14 @@ main[role="main"] h1 {
     padding: 0 8px;
 }
 
-
+footer[role="contentinfo"] {
+    animation: colorchange-font 5s linear 1s infinite alternate;
+    background-color: $color;
+    color: $background-color;    
+    @include body-font-italic;
+    line-height: 1;
+    padding: 4px 8px 8px 8px;
+}
         
 
     
